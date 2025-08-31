@@ -1,0 +1,14 @@
+site_name: AI Chat Lifecycle Demo
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - How to run: howto.md
+  - API: api.md
+  - Notes: notes.md
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.superfences
