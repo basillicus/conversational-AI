@@ -4,10 +4,10 @@ This repository is a compact, **one-project** demonstration of the full AI/ML li
 data preparation → model training → deployment → monitoring → retraining,
 integrated into a conversational AI flow (local intent model + LLM via Ollama).
 
-It is intentionally minimal and educational so you can:
-- show a single coherent pipeline in interviews,
-- run everything locally without cloud infra,
-- demonstrate PO-level understanding of lifecycle, telemetry, and retraining.
+It is intentionally minimal and educational so it:
+- shows a single coherent pipeline,
+- runs everything locally without cloud infra,
+- demonstrates PO-level understanding of lifecycle, telemetry, and retraining.
 
 ## What is included
 - `prepare_data.py` - create a small synthetic intent dataset
@@ -84,7 +84,7 @@ After running the training step you will see:
 - `logs/chat_metrics.log` (chat telemetry)
 - `data/new_user_data.csv` (collected feedback)
 
-## Appendix: How this maps to the job description
+## Summary:
 - **Data preparation:** `prepare_data.py` + `data/`
 - **Model development:** `train_model.py` (experiments, metrics)
 - **Deployment:** `main.py` (FastAPI endpoints serving model and LLM)
